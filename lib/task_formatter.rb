@@ -11,7 +11,7 @@ class TaskFormatter
       # - [x] Task title
 
        @task.complete? ? "[ ] #{@task.title}" : "[x] #{@task.title} "
-
-
     end
   end
+
+  
